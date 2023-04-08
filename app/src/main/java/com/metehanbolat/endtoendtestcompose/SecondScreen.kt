@@ -26,7 +26,7 @@ fun SecondScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = stringResource(id = R.string.first_screen_description),
+            text = stringResource(id = R.string.second_screen_description),
             style = MaterialTheme.typography.h2,
             modifier = Modifier.fillMaxWidth(),
             textAlign = TextAlign.Center
@@ -47,7 +47,7 @@ fun SecondScreen(
             }
         ) {
             Text(
-                text = stringResource(id = R.string.navigate_to_second_screen)
+                text = stringResource(id = R.string.navigate_to_third_screen)
             )
         }
     }
